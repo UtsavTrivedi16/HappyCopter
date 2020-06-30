@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="305_project">
+		<CBX_INST_ENTRY INSTANCE_NAME="|305_project|Helicopter:inst19|copter:Helicopter_render|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_o5b1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|305_project|background_display:inst18|background_gen:background_component|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_qlb1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|305_project|char_rom:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_kt91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|305_project|pll_lut:inst5|altpll:altpll_component" CBX_FILE_NAME="pll_lut_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

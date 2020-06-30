@@ -1,0 +1,27 @@
+-- Collision Manager
+LIBRARY IEEE;
+USE  IEEE.STD_LOGIC_1164.all;
+USE  IEEE.STD_LOGIC_ARITH.all;
+USE  IEEE.STD_LOGIC_UNSIGNED.all;
+
+entity CollisionManager is
+
+port(	clk, ball_on, pipe_on, bomb_on, dead : in std_logic;
+		ball_collide : out std_logic
+		
+	  );
+end entity;
+
+architecture beh of CollisionManager is 
+signal ball_touchy_pipe : std_logic := '0';
+begin 
+
+Collision : process(clk)
+				begin
+
+		ball_touchy_pipe <= ball_on and (pipe_on or bomb_on);
+		ball_collide <= ball_touchy_pipe or dead;
+
+end process Collision;
+
+end architecture beh;
