@@ -1,5 +1,5 @@
 # Intro
-A Flappy Bird Themed game in VHDL on a DE2-115 FPGA
+A Flappy Bird Themed game in VHDL on a DE0 Cyclone III FPGA
 
 # OS and Tools
 Quartus 13.0 on Windows 10 64 bit, DE0 FPGA, VGA Monitor, PS2 Mouse
