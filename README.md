@@ -2,7 +2,7 @@
 A Flappy Bird Themed game in VHDL on a DE2-115 FPGA
 
 # OS and Tools
-Quartus 13.0 on Windows 10 64 bit, DE2-115 FPGA, VGA Monitor, PS2 Mouse
+Quartus 13.0 on Windows 10 64 bit, DE0 FPGA, VGA Monitor, PS2 Mouse
 
 # How to Play
 DEO Board Controls: The first slider switch “SW0” allows
